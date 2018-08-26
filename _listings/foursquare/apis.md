@@ -7,224 +7,121 @@ image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/203-foursq
 x-kinRank: "9"
 x-alexaRank: "2544"
 tags: Specials
-created: "2018-08-19"
-modified: "2018-08-19"
+created: "2018-08-26"
+modified: "2018-08-26"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/specials/master/_listings/foursquare/apis.md
 specificationVersion: "0.14"
 apis:
-- name: Foursquare
-  x-api-slug: foursquare
-  description: checkin-explore-your-city-and-connect-people-and-places-bapi-v2-b
+- name: Foursquare - Post Specials Add
+  x-api-slug: specialsadd-post
+  description: /specials/{SPECIAL_ID}
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/203-foursquare.jpg
   humanURL: http://blog.foursquare.com
   baseURL: https://api.foursquare.com//v2/
   tags: Games, Mobile, Social, Coupons, Deals, Local, Merchants, Places, Stack Network,
     Stack, Getting Started Example, Technology, internet, API Provider, Checkins,
-    Profiles, General Data API, Relative Data API, Pedestal, Locations, Locations
+    Profiles, General Data, Relative Data, Pedestal, Locations, Locations, Historical
+    Data API
   properties:
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/specials/master/_listings/foursquare/specialsadd-post-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/specials/master/_listings/foursquare/specialsadd-post-openapi.md
-- name: Foursquare
-  x-api-slug: foursquare
-  description: checkin-explore-your-city-and-connect-people-and-places-bapi-v2-b
+- name: Foursquare - Get Specials List
+  x-api-slug: specialslist-get
+  description: /specials/add
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/203-foursquare.jpg
   humanURL: http://blog.foursquare.com
   baseURL: https://api.foursquare.com//v2/
   tags: Games, Mobile, Social, Coupons, Deals, Local, Merchants, Places, Stack Network,
     Stack, Getting Started Example, Technology, internet, API Provider, Checkins,
-    Profiles, General Data API, Relative Data API, Pedestal, Locations, Locations
+    Profiles, General Data, Relative Data, Pedestal, Locations, Locations, Historical
+    Data API
   properties:
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/specials/master/_listings/foursquare/specialsadd-post-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/specials/master/_listings/foursquare/specialsadd-post-openapi.md
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/specials/master/_listings/foursquare/specialslist-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/specials/master/_listings/foursquare/specialslist-get-openapi.md
-- name: Foursquare
-  x-api-slug: foursquare
-  description: checkin-explore-your-city-and-connect-people-and-places-bapi-v2-b
+- name: Foursquare - Get Specials Search
+  x-api-slug: specialssearch-get
+  description: /specials/list
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/203-foursquare.jpg
   humanURL: http://blog.foursquare.com
   baseURL: https://api.foursquare.com//v2/
   tags: Games, Mobile, Social, Coupons, Deals, Local, Merchants, Places, Stack Network,
     Stack, Getting Started Example, Technology, internet, API Provider, Checkins,
-    Profiles, General Data API, Relative Data API, Pedestal, Locations, Locations
+    Profiles, General Data, Relative Data, Pedestal, Locations, Locations, Historical
+    Data API
   properties:
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/specials/master/_listings/foursquare/specialsadd-post-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/specials/master/_listings/foursquare/specialsadd-post-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/specials/master/_listings/foursquare/specialslist-get-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/specials/master/_listings/foursquare/specialslist-get-openapi.md
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/specials/master/_listings/foursquare/specialssearch-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/specials/master/_listings/foursquare/specialssearch-get-openapi.md
-- name: Foursquare
-  x-api-slug: foursquare
-  description: checkin-explore-your-city-and-connect-people-and-places-bapi-v2-b
+- name: Foursquare - Post Specials Flag
+  x-api-slug: specialsidflag-post
+  description: /specials/{SPECIAL_ID}/configuration
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/203-foursquare.jpg
   humanURL: http://blog.foursquare.com
   baseURL: https://api.foursquare.com//v2/
   tags: Games, Mobile, Social, Coupons, Deals, Local, Merchants, Places, Stack Network,
     Stack, Getting Started Example, Technology, internet, API Provider, Checkins,
-    Profiles, General Data API, Relative Data API, Pedestal, Locations, Locations
+    Profiles, General Data, Relative Data, Pedestal, Locations, Locations, Historical
+    Data API
   properties:
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/specials/master/_listings/foursquare/specialsadd-post-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/specials/master/_listings/foursquare/specialsadd-post-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/specials/master/_listings/foursquare/specialslist-get-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/specials/master/_listings/foursquare/specialslist-get-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/specials/master/_listings/foursquare/specialssearch-get-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/specials/master/_listings/foursquare/specialssearch-get-openapi.md
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/specials/master/_listings/foursquare/specialsidflag-post-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/specials/master/_listings/foursquare/specialsidflag-post-openapi.md
-- name: Foursquare
-  x-api-slug: foursquare
-  description: checkin-explore-your-city-and-connect-people-and-places-bapi-v2-b
+- name: Foursquare - Get Specials
+  x-api-slug: specialsspecial-id-get
+  description: /settings/{SETTING_ID}/set
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/203-foursquare.jpg
   humanURL: http://blog.foursquare.com
   baseURL: https://api.foursquare.com//v2/
   tags: Games, Mobile, Social, Coupons, Deals, Local, Merchants, Places, Stack Network,
     Stack, Getting Started Example, Technology, internet, API Provider, Checkins,
-    Profiles, General Data API, Relative Data API, Pedestal, Locations, Locations
+    Profiles, General Data, Relative Data, Pedestal, Locations, Locations, Historical
+    Data API
   properties:
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/specials/master/_listings/foursquare/specialsadd-post-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/specials/master/_listings/foursquare/specialsadd-post-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/specials/master/_listings/foursquare/specialslist-get-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/specials/master/_listings/foursquare/specialslist-get-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/specials/master/_listings/foursquare/specialssearch-get-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/specials/master/_listings/foursquare/specialssearch-get-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/specials/master/_listings/foursquare/specialsidflag-post-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/specials/master/_listings/foursquare/specialsidflag-post-openapi.md
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/specials/master/_listings/foursquare/specialsspecial-id-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/specials/master/_listings/foursquare/specialsspecial-id-get-openapi.md
-- name: Foursquare
-  x-api-slug: foursquare
-  description: checkin-explore-your-city-and-connect-people-and-places-bapi-v2-b
+- name: Foursquare - Get Specials Configuration
+  x-api-slug: specialsspecial-idconfiguration-get
+  description: /specials/search
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/203-foursquare.jpg
   humanURL: http://blog.foursquare.com
   baseURL: https://api.foursquare.com//v2/
   tags: Games, Mobile, Social, Coupons, Deals, Local, Merchants, Places, Stack Network,
     Stack, Getting Started Example, Technology, internet, API Provider, Checkins,
-    Profiles, General Data API, Relative Data API, Pedestal, Locations, Locations
+    Profiles, General Data, Relative Data, Pedestal, Locations, Locations, Historical
+    Data API
   properties:
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/specials/master/_listings/foursquare/specialsadd-post-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/specials/master/_listings/foursquare/specialsadd-post-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/specials/master/_listings/foursquare/specialslist-get-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/specials/master/_listings/foursquare/specialslist-get-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/specials/master/_listings/foursquare/specialssearch-get-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/specials/master/_listings/foursquare/specialssearch-get-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/specials/master/_listings/foursquare/specialsidflag-post-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/specials/master/_listings/foursquare/specialsidflag-post-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/specials/master/_listings/foursquare/specialsspecial-id-get-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/specials/master/_listings/foursquare/specialsspecial-id-get-openapi.md
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/specials/master/_listings/foursquare/specialsspecial-idconfiguration-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/specials/master/_listings/foursquare/specialsspecial-idconfiguration-get-openapi.md
-- name: Foursquare
-  x-api-slug: foursquare
-  description: checkin-explore-your-city-and-connect-people-and-places-bapi-v2-b
+- name: Foursquare - Post Specials Retire
+  x-api-slug: specialsspecial-idretire-post
+  description: /specials/{ID}/flag
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/203-foursquare.jpg
   humanURL: http://blog.foursquare.com
   baseURL: https://api.foursquare.com//v2/
   tags: Games, Mobile, Social, Coupons, Deals, Local, Merchants, Places, Stack Network,
     Stack, Getting Started Example, Technology, internet, API Provider, Checkins,
-    Profiles, General Data API, Relative Data API, Pedestal, Locations, Locations
+    Profiles, General Data, Relative Data, Pedestal, Locations, Locations, Historical
+    Data API
   properties:
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/specials/master/_listings/foursquare/specialsadd-post-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/specials/master/_listings/foursquare/specialsadd-post-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/specials/master/_listings/foursquare/specialslist-get-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/specials/master/_listings/foursquare/specialslist-get-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/specials/master/_listings/foursquare/specialssearch-get-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/specials/master/_listings/foursquare/specialssearch-get-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/specials/master/_listings/foursquare/specialsidflag-post-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/specials/master/_listings/foursquare/specialsidflag-post-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/specials/master/_listings/foursquare/specialsspecial-id-get-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/specials/master/_listings/foursquare/specialsspecial-id-get-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/specials/master/_listings/foursquare/specialsspecial-idconfiguration-get-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/specials/master/_listings/foursquare/specialsspecial-idconfiguration-get-openapi.md
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/specials/master/_listings/foursquare/specialsspecial-idretire-post-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/specials/master/_listings/foursquare/specialsspecial-idretire-post-openapi.md
-- name: Foursquare
-  x-api-slug: foursquare
-  description: foursquare makes the real world easier to use. We build tools that
-    help you keep up with friends, discover what???s nearby, save money and unlock
-    deals. Whether you???re setting off on a trip around the world, coordinating a
-    night out with friends, or trying to pick out the best dish at your local restaurant,
-    foursquare is the perfect companion. The foursquare API gives you access to all
-    of the data used by the foursquare mobile applications, and, in some cases, even
-    more.
-  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/203-foursquare.jpg
-  humanURL: http://blog.foursquare.com
-  baseURL: https://api.foursquare.com//v2/
-  tags: Specials
-  properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/specials/master/_listings/foursquare/openapi.md
-- name: Foursquare Merchant
-  x-api-slug: foursquare-merchant
-  description: The foursquare Merchant Platform helps developers work with venue managers
-    to manage specials and venue information and build experiences for customers that
-    respond to check-ins.
-  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/203-foursquare.jpg
-  humanURL: http://blog.foursquare.com
-  baseURL: https:///
-  tags: Specials
-  properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/specials/master/_listings/foursquare/openapi.md
 x-common:
 - type: x-api-json--authoritative
   url: http://apis.io/apisdef/legacy/foursquare.json
+- type: x-api-gallery
+  url: http://fluxiom.api.gallery.streamdata.io
 - type: x-api-stack
   url: http://foursquare.stack.network
 - type: x-apigee-console
