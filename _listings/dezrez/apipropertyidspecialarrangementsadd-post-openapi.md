@@ -3,9 +3,9 @@ swagger: "2.0"
 x-collection-name: Dezrez
 x-complete: 0
 info:
-  title: Dezrez Get a list of special arrangements for a property
+  title: Dezrez Add special arrangements for a property
   version: 1.0.0
-  description: Get a list of special arrangements for a property.
+  description: Add special arrangements for a property.
 host: api.dezrez.com
 basePath: /
 schemes:

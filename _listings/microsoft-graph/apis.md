@@ -12,11 +12,25 @@ image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/l
 x-kinRank: "10"
 x-alexaRank: "0"
 tags: Specials
-created: "2018-08-26"
-modified: "2018-08-26"
+created: "2018-08-28"
+modified: "2018-08-28"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/specials/master/_listings/microsoft-graph/apis.md
 specificationVersion: "0.14"
 apis:
+- name: Microsoft Graph API - Get A Special Folder By Name
+  x-api-slug: medrivespecialname-get
+  description: Get a special folder by name Use the special collection to access a
+    special folder by name.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/microsoft-graph.png
+  humanURL: https://developer.microsoft.com/en-us/graph/
+  baseURL: https://graph.microsoft.com//
+  tags: Microsoft, Files, Notes, Tasks, Stack Network, API Provider, Contacts, Emails,
+    Profiles, Service API, Relative Data
+  properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/specials/master/_listings/microsoft-graph/medrivespecialname-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/specials/master/_listings/microsoft-graph/medrivespecialname-get-openapi.md
 - name: Microsoft Graph API - Get A Special Folder By Name
   x-api-slug: medrivespecialname-get
   description: Get a special folder by name Use the special collection to access a
